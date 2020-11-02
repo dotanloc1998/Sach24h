@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThemHinhAnhSachActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/nutChonHinh"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/imageicon" />
+
+        <EditText
+            android:id="@+id/editDuongDanHinhAnh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Nhập đường dẫn hình ảnh" />
+    </LinearLayout>
+
+
+    <Spinner
+        android:id="@+id/spinnerSach"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:id="@+id/buttonThemHinhAnhSach"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_button_orange"
+        android:text="Thêm hình sách" />
+
+    <ImageView
+        android:id="@+id/hinhAnhPreview"
+        android:scaleType="fitCenter"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="25dp" />
+</LinearLayout>

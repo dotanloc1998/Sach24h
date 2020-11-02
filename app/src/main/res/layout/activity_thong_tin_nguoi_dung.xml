@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ThongTinNguoiDungActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@null">
+
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/left_arrow" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/borderLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/email"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextHoTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hoTen"
+            android:inputType="textPersonName" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextMatKhau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/matKhau"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textViewNgaySinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ems="10"
+            android:text="Ngày sinh:"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spinnerGioiTinh"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/editTextDiaChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/diaChi"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/buttonCapNhat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/thayDoiThongTin" />
+
+        <Button
+            android:id="@+id/buttonXemDonHang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/xemDonHang" />
+
+        <Button
+            android:id="@+id/buttonDangXuat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/dangXuat" />
+    </LinearLayout>
+
+</LinearLayout>

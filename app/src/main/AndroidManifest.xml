@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sinhvien.sach24h">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/open_book"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/open_book"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ThongKeActivity"></activity>
+        <activity android:name=".ThemHinhAnhSachActivity" />
+        <activity android:name=".XacNhanGiaoHangActivity" />
+        <activity android:name=".ChiTietTheLoaiActivity" />
+        <activity android:name=".SuaSuKienActivity" />
+        <activity android:name=".ThemSuKienActivity" />
+        <activity android:name=".QuanLiSuKienActivity" />
+        <activity android:name=".ChiTietDonHangActivity" />
+        <activity android:name=".SuaDonHangActivity" />
+        <activity android:name=".QuanLiDonHangActivity" />
+        <activity android:name=".SuaNguoiDungActivity" />
+        <activity android:name=".QuanLiNguoiDungActivity" />
+        <activity android:name=".SuaSachActivity" />
+        <activity android:name=".ThemSachActivity" />
+        <activity android:name=".QuanLiSachActivity" />
+        <activity android:name=".DonHangNguoiDungActivity" />
+        <activity android:name=".ThongTinNguoiDungActivity" />
+        <activity android:name=".DangNhapActivity" />
+        <activity android:name=".DangKyActivity" />
+        <activity android:name=".KhuyenMaiActivity" />
+        <activity android:name=".ChiTietSanPhamActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".WelcomeScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service android:name=".Service.MyFirebaseService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

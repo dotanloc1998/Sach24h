@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#692a2a</color>
+    <color name="colorPrimaryDark">#692a2a</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="fontTheme">#c6ac80</color>
+    <color name="borderLine">#a8a8a8</color>
+    <color name="cateColorDark">#9000a3</color>
+    <color name="cartColor">#3993ed</color>
+    <color name="searchColor">#D14343</color>
+</resources>

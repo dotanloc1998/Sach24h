@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1.5"
+            android:scaleType="fitCenter"
+            android:src="@drawable/user" />
+
+        <Button
+            android:id="@+id/buttonThongTin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="8.5"
+            android:background="@android:color/white"
+            android:text="@string/nutThongTin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1.5"
+            android:scaleType="fitCenter"
+            android:src="@drawable/suit" />
+
+        <Button
+            android:id="@+id/buttonAdmin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="8.5"
+            android:background="@android:color/white"
+            android:text="@string/nutAdmin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutThemCSDL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <ImageView
+            android:layout_weight="1.5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/server"
+            android:scaleType="fitCenter"/>
+        <Button
+            android:id="@+id/buttonThemCSDL"
+            android:background="@android:color/white"
+            android:layout_weight="8.5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/themcsdl"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_content"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:layout_height="?attr/actionBarSize">
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:scaleType="fitCenter"
+            android:src="@drawable/left_arrow"
+            android:background="@null"
+            android:layout_width="50dp"
+            android:layout_height="30dp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/borderLine"/>
+
+    <ListView
+        android:id="@+id/listViewGioHang"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/textViewTongTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:textSize="28sp"
+        android:textColor="@color/cateColorDark"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tongTien"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/buttonThanhToan"
+            android:layout_width="298dp"
+            android:layout_height="47dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/my_button_green"
+            android:text="@string/nutThanhToan"/>
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="32dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/purchase" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonMuaTiep"
+            android:layout_width="298dp"
+            android:layout_height="47dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/my_button_yellow"
+            android:text="@string/nutMuaTiep"/>
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="32dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/shopping" />
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuanLiSachActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@null">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/buttonBack"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/left_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="150dp"
+                android:textStyle="bold"
+                android:text="@string/quanLiSach"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/borderLine" />
+
+    <Button
+        android:id="@+id/buttonThemSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/my_button_orange"
+        android:text="@string/themSach" />
+    <Button
+        android:id="@+id/buttonThemHinhAnhSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/my_button_orange"
+        android:text="Thêm hình ảnh sách" />
+
+    <ListView
+        android:id="@+id/listViewSach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

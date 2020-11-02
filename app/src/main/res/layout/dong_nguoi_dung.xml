@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewEmailNguoiDung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/emailNguoiDung"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewTenNguoiDung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/hoTenNguoiDung"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewNgaySinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/ngaySinhNguoiDung"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewGioiTinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/gioiTinhNguoiDung"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewDiaChi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/diaChi"
+        android:textSize="20dp" />
+
+</LinearLayout>

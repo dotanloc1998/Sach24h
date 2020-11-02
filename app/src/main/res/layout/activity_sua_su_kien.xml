@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuaSuKienActivity">
+
+    <EditText
+        android:id="@+id/editTextTenSuKien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/tenSuKien" />
+
+    <EditText
+        android:id="@+id/editTextNoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/noiDung" />
+
+    <EditText
+        android:id="@+id/editTextGiaTriKhuyenMai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:digits="0123456789."
+        android:hint="@string/giaTriKhuyenMai"
+        android:inputType="number" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:id="@+id/editTextHinhKhuyenMai"
+        android:hint="Hình sự kiện"/>
+    <TextView
+        android:id="@+id/textViewNgayBatDau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:text="@string/ngayBatDau"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewNgayKetThuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/ngayKetThuc"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonSuaSuKien"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_button_orange"
+        android:text="@string/suaSuKien" />
+</LinearLayout>

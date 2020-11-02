@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThemSachActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@null">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/buttonBack"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/left_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="150dp"
+                android:gravity="center_vertical"
+                android:text="@string/themSach"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/borderLine" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextTenSach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/tenSach" />
+
+            <EditText
+                android:inputType="number"
+                android:digits="0123456789"
+                android:id="@+id/editTextSoLuongSach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/soLuongSach" />
+
+            <EditText
+                android:inputType="number"
+                android:digits="0123456789"
+                android:id="@+id/editTextGiaSach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/gia" />
+
+            <EditText
+                android:id="@+id/editTextTacGia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/tacGia" />
+
+            <EditText
+                android:id="@+id/editTextNamSuatBan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:inputType="number"
+                android:digits="0123456789"
+                android:hint="@string/namSuatBan" />
+
+            <EditText
+                android:inputType="number"
+                android:digits="0123456789"
+                android:id="@+id/editTextTrongLuong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/trongLuong" />
+
+            <EditText
+                android:id="@+id/editTextKichThuoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/kichThuoc" />
+
+            <EditText
+                android:id="@+id/editTextMoTaSach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/moTaSach" />
+
+            <EditText
+                android:inputType="number"
+                android:digits="0123456789"
+                android:id="@+id/editTextSoTrang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/soTrang" />
+
+            <EditText
+                android:id="@+id/editTextNgonNgu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/ngonNgu" />
+
+            <EditText
+                android:id="@+id/editTextNhaCungCap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/nhaCungCap" />
+
+            <Spinner
+                android:id="@+id/spinnerLoaiSach"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp" />
+
+            <Spinner
+                android:id="@+id/spinnerNhaXuatBan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonThemSach"
+        android:text="@string/themSach"
+        android:background="@drawable/my_button_orange"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp" />
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewMaSuKien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/maSuKien"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewtTenSuKien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/tenSuKien"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewGiaTriKhuyenMai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/giaTriKhuyenMai"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewNgayBatDau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/ngayBatDau"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewNgayKetThuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/ngayKetThuc"
+        android:textSize="20dp" />
+</LinearLayout>

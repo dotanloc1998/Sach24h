@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewHinhSanPham"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewTenSanPham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Tên sản phẩm:"
+                android:textColor="@color/cartColor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewGiaSanPham"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:text="Giá sản phẩm:" />
+            <TextView
+                android:id="@+id/textViewSoLuongSanPham"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:text="@string/soLuong" />
+
+
+            <TextView
+                android:id="@+id/textViewThanhTien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Thành tiền:"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

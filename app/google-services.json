@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "270360028009",
+    "firebase_url": "https://sach24hthuongmai.firebaseio.com",
+    "project_id": "sach24hthuongmai",
+    "storage_bucket": "sach24hthuongmai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270360028009:android:3d1419d9d33f44debc13f8",
+        "android_client_info": {
+          "package_name": "com.sinhvien.sach24h"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270360028009-7blfoh57vcfb6k1vkagc8iu3jsrjrmpu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sinhvien.sach24h",
+            "certificate_hash": "e1d6b20f599f7c6a74caa1fe1f42dcfe616d1526"
+          }
+        },
+        {
+          "client_id": "270360028009-eft1l7dauaunicqvo0b2m484va5b234b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC43X1burYNRFc5OeWHoa8ROk6X3RzNGkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270360028009-eft1l7dauaunicqvo0b2m484va5b234b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
