@@ -81,7 +81,7 @@ public class MenuFragment extends Fragment {
         db.ThemTheLoai(new TheLoai("Viễn tưởng", "HD", "https://i.kinja-img.com/gawker-media/image/upload/s--MrLx7ocP--/c_scale,f_auto,fl_progressive,q_80,w_800/l5luskqeprim7l1llid2.jpg"));
         db.ThemTheLoai(new TheLoai("Chính trị", "HD", "https://endeavors.unc.edu/wp-content/uploads/Politics-Graphic_Final.jpg"));
         db.ThemTheLoai(new TheLoai("Khoa học", "HD", "https://www.asianscientist.com/wp-content/uploads/bfi_thumb/20160627-Grand-Challenges-of-Science-31qtkdbz2aajgveb3em2gw.jpg"));
-        db.ThemTheLoai(new TheLoai("Lịch sử", "HD", "https://thecsspoint.com/wp-content/uploads/2018/09/01-17.jpg"));
+        db.ThemTheLoai(new TheLoai("Lịch sử", "HD", "https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_660,h_382/https://discoverpods.com/wp-content/uploads/2018/12/maps-atlantic-oldtimer-car-compass-vintage-1442539-pxhere.com_-660x382.jpg"));
         db.ThemTheLoai(new TheLoai("Văn học", "HD", "https://1d26q01bh7vg3dctqgnx0671-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/IAFOR-Journal-of-Literature-Librarianship-1100x550.jpg"));
         db.ThemTheLoai(new TheLoai("Thiếu nhi", "HD", "https://d3a1v57rabk2hm.cloudfront.net/5b641de0ac42492e8bfd0ae8aa358746.jpeg"));
 
@@ -157,19 +157,19 @@ public class MenuFragment extends Fragment {
                 "Trong cuộc phiêu lưu tăm tối và nghẹt thở nhất của mình, J.K.Rowling bắt đầu tài tình tháo gỡ từng mắc lưới phức tạp mà cô đã mạng lên, cũng là lúc chúng ta khám phá ra sự thật về Harry, cụ Dumblebore, thầy Snape và, tất nhiên, Kẻ Chớ Gọi Tên Ra", "716", "Sách tiếng Việt", "NXB Trẻ", "Bìa Mềm", "HD", 1, 5, 100, 0));
 
         //Thêm hình ảnh sách
-        db.ThemHinhAnhSach(new HinhAnhSach(1, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/a/mat_biec_bia_mem_in_lan_thu_44_1.jpg"));
+        db.ThemHinhAnhSach(new HinhAnhSach(1, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/a/mat_biec_bia_mem_in_lan_thu_44.jpg"));
         db.ThemHinhAnhSach(new HinhAnhSach(2, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/image_180164_1_43_1_57_1_4_1_2_1_210_1_29_1_98_1_25_1_21_1_5_1_3_1_18_1_18_1_45_1_26_1_32_1_14_1_1233.jpg"));
-        db.ThemHinhAnhSach(new HinhAnhSach(3, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/l/a/lam-ban-voi-bau-troi_bia-mem_3d_1.gif"));
+        db.ThemHinhAnhSach(new HinhAnhSach(3, "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/lam_ban_voi_bau_troi___bia_cung/2020_03_28_10_45_11_1.JPG"));
         db.ThemHinhAnhSach(new HinhAnhSach(4, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/1/1111_1_7.jpg"));
         db.ThemHinhAnhSach(new HinhAnhSach(5, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/i/minh_noi_gi_khi_noi_ve_hanh_phuc_1_2018_10_30_14_44_57.jpg"));
         db.ThemHinhAnhSach(new HinhAnhSach(6, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/n/g/nguoi_lon_khong_khoc_1_2018_08_14_09_21_05.JPG"));
         db.ThemHinhAnhSach(new HinhAnhSach(7, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/k/h/khoi_troi_long_lay_tai_ban_2017_1_2019_02_20_16_09_49.jpg"));
         db.ThemHinhAnhSach(new HinhAnhSach(8, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/k/h/khong_ai_qua_song_1_2019_02_20_16_09_34.jpg"));
-        db.ThemHinhAnhSach(new HinhAnhSach(9, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9780804171540.png"));
+        db.ThemHinhAnhSach(new HinhAnhSach(9, "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/inferno__film_tie_in__9780552172134/9/7/9780552172134-0.png"));
         db.ThemHinhAnhSach(new HinhAnhSach(10, "https://kbimages1-a.akamaihd.net/aad58714-db6b-45be-acbb-cc1b57bc8a84/1200/1200/False/angels-demons-1.jpg"));
         db.ThemHinhAnhSach(new HinhAnhSach(11, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9780141372563.jpg"));
-        db.ThemHinhAnhSach(new HinhAnhSach(12, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781423145516.jpg"));
-        db.ThemHinhAnhSach(new HinhAnhSach(13, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9780141346830_1.jpg"));
+        db.ThemHinhAnhSach(new HinhAnhSach(12, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/e/percy_jackson_and_the_sea_of_monsters_book_2_1_2018_11_20_22_15_07.jpg"));
+        db.ThemHinhAnhSach(new HinhAnhSach(13, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9780141346830.jpg"));
         db.ThemHinhAnhSach(new HinhAnhSach(14, "https://nicholassparks.com/wp-content/uploads/2016/04/201708-two-by-two.jpg"));
         db.ThemHinhAnhSach(new HinhAnhSach(15, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/h/the_last_song_1_2018_08_23_16_03_22.jpg"));
         db.ThemHinhAnhSach(new HinhAnhSach(16, "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/a/safe_haven_1_2019_02_16_09_13_31.jpg"));
